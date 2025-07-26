@@ -1,0 +1,7 @@
+backend/data/order_items.csv
+backend/data/inventory_items.csv
+backend/data/orders.csv
+backend/data/users.csv
+backend/data/products.csv
+backend/data/distribution_centers.csv
+*.db
