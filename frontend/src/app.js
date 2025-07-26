@@ -1,12 +1,12 @@
-// App.js
-import ChatWindow from './components/ChatWindow';
+import React from "react";
+import ChatWindow from "./components/ChatWindow";
+import { ChatProvider } from "./context/ChatContext";
 
 function App() {
   return (
-    <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">Chat App</h1>
+    <ChatProvider>
       <ChatWindow />
-    </div>
+    </ChatProvider>
   );
 }
 
